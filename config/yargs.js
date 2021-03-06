@@ -10,6 +10,10 @@ const argv = require('yargs')
             .check( ( argv, options ) => {
                 if (isNaN( argv.b )) {
                     throw 'La base tiene que ser un numero'
+                } else if ( isNaN( argv.h ) ){
+                    throw 'El hasta tiene que ser un numero'
+                } else if( isNaN( arg.l ) ) {
+                    throw 'True: Se muestra la tabla, False: No se muestra la tabla, Otra cosa: No funciona'
                 }
                 return true
             })
