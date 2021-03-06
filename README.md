@@ -2,8 +2,8 @@
 
 
 ```
--b, --base     El la base de la multiplicacion            [número] [requerido]
--l, --list     Muestra la tabla de multiplicacion  [booleano] [defecto: false]
--h, --hasta    Hasta que numero se quiere x               [número] [requerido]
+-b, --base     El numero que se quiere multiplicar           [número] [requerido]
+-l, --list     Si se quiere ver la tabla de la multiplicacion  [booleano] [defecto: false]
+-h, --hasta    Hasta que numero se quiere multiplicar               [número] [requerido]
 
 ```
